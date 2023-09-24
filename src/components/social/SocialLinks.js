@@ -52,8 +52,19 @@ const useStyles = makeStyles((theme) => ({
   tw: {
     boxShadow: "0 0 10px 4px rgb(19 19 19 / 6%)",
     backgroundColor: TWITTER_COLOR,
+    "& a": {
+      width: 32,
+      height: 30,
+      "& svg": {
+        width: 20,
+        height: 28,
+        marginLeft: 4,
+      }
+    },
     "&:hover": {
       "& a": {
+        width: 32,
+        height: 30,
         marginLeft: 30,
       },
     },

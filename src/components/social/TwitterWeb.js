@@ -1,4 +1,4 @@
-import { Twitter } from "@mui/icons-material";
+import { ReactComponent as TwitterLogo } from "../../assets/icons/twitter.svg";
 import { TWITTER_URL } from "../constant/AppConstat";
 
 export const TwitterWeb = () => {
@@ -10,7 +10,7 @@ export const TwitterWeb = () => {
       alt="twitter"
       rel="noreferrer"
     >
-      <Twitter />
+      <TwitterLogo />
     </a>
   );
 };

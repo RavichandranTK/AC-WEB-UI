@@ -113,8 +113,12 @@ const useStyles = makeStyles((theme) => ({
       },
     },
     "& .twitter": {
-      "& path": {
-        fill: "#1da1f2",
+      "& svg": {
+        width: 20,
+        height: 24,
+        "& path": {
+          fill: "#1a1a1a",
+        },
       },
     },
     "& .youtube": {

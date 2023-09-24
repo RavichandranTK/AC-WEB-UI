@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) =>
       [theme.breakpoints.down(600)]: {
         maxWidth: 300,
         borderRadius: 30,
+        marginRight: theme.spacing(2),
       },
     },
     quoteContent: {

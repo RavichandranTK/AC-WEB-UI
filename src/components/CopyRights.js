@@ -37,15 +37,7 @@ export const CopyRights = () => {
   return (
     <div className={classes.copyRights}>
       <Typography gutterBottom variant="h6" component="div" className="main">
-        Copyrights © cbcontrolsystems. All Rights Reserved. |
-      </Typography>
-      <Typography
-        gutterBottom
-        variant="h6"
-        component="div"
-        className="maintainedBy"
-      >
-        Maintained by: RAVICHANDRAN
+        Copyrights © cbcontrolsystems. All Rights Reserved.
       </Typography>
     </div>
   );
